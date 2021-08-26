@@ -21,21 +21,7 @@
         app:layout_constraintBottom_toTopOf="@+id/guideline202"
         app:layout_constraintEnd_toStartOf="@+id/guideline105"
         app:layout_constraintStart_toStartOf="@+id/guideline101"
-        app:layout_constraintTop_toBottomOf="@+id/guideline2015"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <TextView
-        android:id="@+id/tvVistaPrevia"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_margin="5dp"
-        android:gravity="right|center_vertical"
-        android:text=""
-        android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/guideline2015"
-        app:layout_constraintTop_toTopOf="@+id/guideline201"
-        app:layout_constraintEnd_toStartOf="@+id/guideline105"
-        app:layout_constraintStart_toStartOf="@+id/guideline101"
+        app:layout_constraintTop_toBottomOf="@+id/guideline201"
         app:layout_constraintVertical_bias="0.0" />
 
     <Button

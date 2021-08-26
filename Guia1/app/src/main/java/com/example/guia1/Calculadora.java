@@ -12,7 +12,7 @@ import android.widget.Toast;
 
 public class Calculadora extends AppCompatActivity {
     EditText tvResultado;
-    TextView tvVistaPrevia;
+    //TextView tvVistaPrevia;
     float numero1 = 0.0f;
     float numero2 = 0.0f;
     String operacion = "";
@@ -35,7 +35,7 @@ public class Calculadora extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calculadora);
-        tvVistaPrevia = findViewById(R.id.tvVistaPrevia);
+        //tvVistaPrevia = findViewById(R.id.tvVistaPrevia);
         tvResultado = findViewById(R.id.tvResultado);
         tvResultado.setFocusable(true);
         tvResultado.setFocusableInTouchMode(true);
@@ -108,7 +108,7 @@ public class Calculadora extends AppCompatActivity {
         numero2 = 0.0f;
         operacion = "";
         tvResultado.setText("");
-        tvVistaPrevia.setText("");
+        //tvVistaPrevia.setText("");
     }
 
     //DEL
@@ -189,8 +189,8 @@ public class Calculadora extends AppCompatActivity {
             result = numero1 + numero2;
         }
 
-        //tvResultado.setText(result + "");
-        tvVistaPrevia.setText(result + "");
+        tvResultado.setText(result + "");
+        //tvVistaPrevia.setText(result + "");
         numero1 = 0.0f;
         numero2 = 0.0f;
         operacion = "";
